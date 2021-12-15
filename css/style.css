@@ -95,7 +95,6 @@ h1 {
 
 .shop-now .btn:hover {
     background-color: #0A3641;
-    padding: 22px 105px;
 }
 
 .shop-now {
@@ -140,6 +139,30 @@ button.btn-small {
 button.btn-small:hover {
     background-color: #0A3641;
 }
+
+.text-frontpage {
+    font-family: "Source Sans Pro Black";
+    color: #0A3641;
+    font-size: 25px;
+    text-align: center;
+    margin: 100px;
+}
+
+section.module-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
 
 
 /* MEDIA QUERIES */
