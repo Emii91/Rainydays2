@@ -5,6 +5,10 @@
     src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 /* NAVIGATION */
 
@@ -101,8 +105,19 @@ h1 {
 }
 
 .module-two {
-    display: flex;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
 }
+
+section.module-two img {
+    max-width: 350px;
+    margin: 50px 0px;
+    border-radius: 30px;
+}
+
+
 
 /* justify-content - only on images! */
 
@@ -144,9 +159,8 @@ h1 {
         display: block;
         border-bottom: 1px solid #ffffff;
         margin: 0;
-        padding: 10px 80px;
-        background-color: #0A3641;
-        color: white;
+        padding: 20px 70px;
+        position: relative;
     }
     .menu a:hover {
         text-transform: uppercase;
