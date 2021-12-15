@@ -111,31 +111,36 @@ h1 {
 
 section.module-two img {
     max-width: 350px;
-    margin: 50px 0px;
+    margin: 50px 0px 10px;
     border-radius: 30px;
 }
 
-
-
-/* justify-content - only on images! */
-
-/* .module-two img {
-    max-width: 100%;
-    padding: 40px 0px 0px 40px;
-    margin-top: 80px;
-    width: 350px;
-}
-
-.module-two a {
+section.module-two a {
+    display: flex;
+    justify-content: center;
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Source Sans Pro Black';
     font-size: 30px;
-    color: #0A3641; 
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5px;
-}  */
+    color: #0A3641;
+}
+
+button.btn-small {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+button.btn-small:hover {
+    background-color: #0A3641;
+}
+
 
 /* MEDIA QUERIES */
 /* SHOULD HAVE THE TOGGLE BAR LATER */
