@@ -164,6 +164,157 @@ section.module-3 {
     /* padding-left: 30px; */
 }
 
+/* New Arrival, Men, Woman & Hiking Gear */
+
+.head-module-newarrivals {
+    background-image: url(../images/newarrivals.jpg);
+}
+
+.head-module-men {
+    background-image: url(../images/Mens\ outerwear.jpg);
+}
+
+.head-module-woman {
+    background-image: url(../images/Womens\ outerwear.jpg);
+}
+
+.head-module-hikinggear {
+    background-image: url(../images/hikinggear.PNG);
+}
+
+.head-module-newarrivals, 
+.head-module-men, 
+.head-module-woman,
+.head-module-hikinggear {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
+/*Products*/
+
+.product-item {
+    float: left;
+    max-width: 100%;
+}
+
+.product-list {
+    margin-top: 80px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.product-list img {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 350px;
+}
+
+.product-detail {
+    margin: 100px 0px;
+}
+
+.product-top {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
+    font-size: 50px; 
+    text-transform: uppercase;
+}
+
+.product-price {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
+    font-size: 30px; 
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.product-text {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
+    font-size: 20px; 
+    text-transform: none;
+    margin: 0px 60px;
+    text-align: center;
+}
+
+.products p {
+    color: #0A3641;
+    margin-left: 20px;
+}
+
+.button-size {
+    margin-left: 50%;
+    padding: 20px;
+}
+
+.btn-size {
+    background-color: #15748C;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.btn-size:hover {
+    background-color: #0A3641;
+}
+
+.btn-cart {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 80px; 
+}
+
+.btn-cart:hover {
+    background-color: #0A3641;
+}
+
+
+/* ABOUT US */
+
+.head-module-aboutus {
+    background-image: url(../images/AboutUs.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+}
+
+.about-text {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 30px 50px 20px 50px;  
+    font-size: 20px;
+    text-align: center;
+    text-transform: none;
+}
+
+img.bottom-img {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+}
 
 
 
