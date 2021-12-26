@@ -161,7 +161,7 @@ section.module-3 {
     margin: 80px;
     text-align: center;
     font-size: 25px;
-    /* padding-left: 30px; */
+    padding-left: 30px;
 }
 
 /* New Arrival, Men, Woman & Hiking Gear */
@@ -235,6 +235,7 @@ main {
     font-size: 50px; 
     text-transform: uppercase;
     text-align: inherit;
+    margin-top: 50px;
 }
 
 .product-price {
@@ -263,8 +264,29 @@ main {
     margin: 30px;
 }
 
+/* SIZE */
 
-.btn-size {
+select {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color: #15748C;
+    color: white;
+    border: none;
+}
+
+.select-size button {
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 20%);
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color: #8C3723;
+    color: white;
+    border: none;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+/* .btn-size {
     background-color: #15748C;
     color: #ffffff;
     font-family: "Source Sans Pro Black";
@@ -278,7 +300,7 @@ main {
 
 .btn-size:hover {
     background-color: #0A3641;
-}
+} */
 
 /* .btn-cart {
     background-color: #8C3723;
@@ -536,7 +558,7 @@ section.module-3 {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 935px) {
     footer {
         bottom: 0px;
     }
@@ -549,5 +571,14 @@ section.module-3 {
     }
     h1 {
         font-size: 50px;
+    }
+    .shop-now .btn {
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .shop-now .btn {
+        padding: 10px 40px;
     }
 }
