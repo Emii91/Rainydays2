@@ -427,16 +427,21 @@ input#subject {
 
 /* Footer */
 
-footer.contactus {
+/* footer.contactus {
     bottom: 0px;
     width: 100%;
     background: #0A3641;
+} */
+
+footer#footer-item {
+    position: absolute;
 }
 
 footer {
     bottom: 0px;
     width: 100%;
     background: #0A3641;
+    /* position: absolute; */
 }
 
 .main-content {
@@ -684,5 +689,14 @@ section.module-3 {
     .text-module-3 {
         font-size: 15px;
         margin: 50px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    section.module-two img {
+        max-width: 250px;
+    } 
+    .text-module-3 {
+        padding: 0px;
     }
 }
