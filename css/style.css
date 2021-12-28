@@ -614,7 +614,7 @@ section.module-3 {
         display: block;
         border-bottom: 1px solid #ffffff;
         margin: 0;
-        padding: 20px 70px;
+        padding: 10px 0px;
         position: relative;
     }
     .menu a:hover {
@@ -643,18 +643,46 @@ section.module-3 {
         font-size: 50px;
     }
     .shop-now .btn {
-        padding: 10px 40px;
+        padding: 10px 0px;
+    }
+    .head-module {
+        padding: 150px;
     }
 }
-
+/* 
 @media screen and (max-width: 815px) {
-    .shop-now .btn {
-        padding: 10px 40px;
-    }
-}
+
+} */
 
 @media screen and (max-width: 550px) {
     .logo {
         max-width: 150px;
+    }
+    label {
+        margin: 0 0 0 100px;
+    }
+    .head-module-men,  
+    .head-module-hikinggear {
+        background-position: right;
+    }
+    .head-module-woman {
+        background-position: inherit;
+    }
+    .head-module {
+        padding: 100px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .shop-now .btn {
+        font-size: 20px;
+    }
+    section.module-two a {
+        font-size: 20px;
+    }
+    .text-frontpage, 
+    .text-module-3 {
+        font-size: 15px;
+        margin: 50px;
     }
 }
