@@ -1,4 +1,5 @@
 var removeItem = document.getElementsByClassName('product-remove');
+const cart = document.querySelector(".cart-total");
 
 for (var i = 0; i < removeItem.length; i++) {
     var p = removeItem[i];
@@ -6,6 +7,13 @@ for (var i = 0; i < removeItem.length; i++) {
         var pClicked = event.target;
         pClicked.parentElement.parentElement.parentElement.remove();
         // updateTotal();
+
+        cart.innerHTML = `<h2>Shoppingcart empty</h2>
+                          <a href="index.html">Go back</a>`
     })
 };
+
+
+
+
 
