@@ -5,11 +5,11 @@ for (var i = 0; i < removeItem.length; i++) {
     var p = removeItem[i];
     p.addEventListener("click", function(event) {
         var pClicked = event.target;
-        pClicked.parentElement.parentElement.parentElement.remove();
+        pClicked.parentElement.parentElement.remove();
         // updateTotal();
 
-        cart.innerHTML = `<h2>Shoppingcart empty</h2>
-                          <a href="index.html">Go back</a>`
+        cart.innerHTML = `<h2>Shoppingcart is empty</h2>
+                          <a href="index.html">Go back</a>`;
     })
 };
 
