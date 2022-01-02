@@ -225,6 +225,7 @@ section.module-3 {
     margin: 30px;
     font-size: 20px;
     font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
 }
 
 .product-top {
@@ -580,6 +581,11 @@ div#cart-btn {
     text-align: center;
 }
 
+h2.h2-js {
+    color: #0A3641;
+    text-align: center;
+    margin: 20px 0px;
+}
 
 /* Footer */
 
@@ -790,7 +796,6 @@ section.module-3 {
     }
     .product-top,
     .product-text,
-    .product-price,
     .select-size {
         text-align: center;
         margin: 20px;
@@ -817,6 +822,9 @@ section.module-3 {
     }
     .head-module {
         padding: 150px;
+    }
+    .head-module-woman {
+        background-position: initial;
     }
 }
 
@@ -930,5 +938,9 @@ section.module-3 {
     }
     .cart-total p {
         font-size: 15px;
+    }
+    .product-price {
+        margin: 10px;
+        text-align: center
     }
 }
