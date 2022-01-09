@@ -1,0 +1,28 @@
+/* ABOUT US */
+
+.head-module-aboutus {
+    background-image: url(../images/AboutUs.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+}
+
+.about-text {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 30px 50px 20px 50px;  
+    font-size: 20px;
+    text-align: center;
+    text-transform: none;
+}
+
+img.bottom-img {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+}

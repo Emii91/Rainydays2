@@ -55,8 +55,4 @@ function validateEmail(email) {
     return patternMatches;
 }
 
-// function submit(event) {
-//     form.reset();
-// }
 
-// form.addEventListener("submit", submit);

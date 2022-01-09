@@ -1,0 +1,202 @@
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1300px) {
+    section.module-3 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        }
+    }
+    
+    
+    @media only screen and (max-width: 1260px) {
+        label {
+            display: block;
+            cursor: pointer;
+        }
+        .menu {
+            text-align: center;
+            width: 100%;
+            display: none;
+        }
+        .menu a {
+            display: block;
+            border-bottom: 1px solid #ffffff;
+            margin: 0;
+            padding: 10px 0px;
+            position: relative;
+            border: 1px solid #0A3641;
+        }
+        .menu a:hover {
+            text-transform: uppercase;
+        }
+        #toggle:checked + .menu {
+            display: block;
+        }
+        select {
+            margin-bottom: 10px;
+        }
+        footer.item {
+            position: relative;
+        }
+    }
+    
+    @media only screen and (max-width: 1020px) {
+        .product-detail {
+            display: grid;
+        }
+        .product-item,
+        .product-detail-list {
+            margin: auto;
+        }
+        .product-top,
+        .product-text,
+        .select-size,
+        .product-price {
+            text-align: center;
+            margin: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 935px) {
+        footer {
+            bottom: 0px;
+            display: block;
+        }
+        .main-content {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .main-content .box {
+            margin: 5px 0;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        .shop-now .btn {
+            padding: 10px 0px;
+        }
+        .head-module {
+            padding: 150px;
+        }
+        .head-module-woman {
+            background-position: initial;
+        }
+    }
+    
+    
+    @media screen and (max-width: 560px) {
+        .logo {
+            max-width: 150px;
+        }
+        label {
+            margin: 0 0 0 100px;
+            font-size: 30px;
+        }
+        .menu a {
+            font-size: 20px;
+        }
+        .head-module-men,  
+        .head-module-hikinggear {
+            background-position: right;
+        }
+        .head-module-woman {
+            background-position: inherit;
+        }
+        .head-module-newarrivals, 
+        .head-module-men, 
+        .head-module-woman, 
+        .head-module-hikinggear,
+        .head-module-aboutus {
+            padding: 100px;
+        }
+        section.module-two img {
+            max-width: 250px;
+        }
+        .about-text {
+            font-size: 15px;
+        }
+        .product-list img {
+            max-width: 250px;
+        }
+        .head-module {
+            padding: 100px;
+        }
+        h1 {
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        .shop-now .btn {
+            font-size: 15px;
+            width: 140px;
+        }
+        button.btn-small {
+            font-size: 15px;
+        }
+        section.module-two a {
+            font-size: 20px;
+        }
+        .text-frontpage, 
+        .text-module-3 {
+            font-size: 15px;
+            margin: 50px;
+        }
+        .product-item {
+            max-width: 320px;
+        }
+        .product-top {
+            font-size: 30px;
+        }
+        .product-price-cart {
+            font-size: 15px;
+        }
+        .select-size {
+            display: grid;
+            grid-template-columns: repeat(1, 0.5fr);
+            justify-content: center;
+        }
+        img.bottom-img {
+            padding: 0px;
+            margin-bottom: 10px;
+        }
+        .product-remove {
+            font-size: 10px;
+        }
+        .product-name, 
+        .product-price {
+            Font-size: 20px;
+        }
+        select {
+            padding: 5px 15px;
+            Font-size: 15px;
+        }
+        .product-img > img {
+            width: 150px;
+        }
+    }
+    
+    @media screen and (max-width: 350px) {
+        .logo {
+            max-width: 100px;
+        }
+        section.module-two img {
+            max-width: 250px;
+        } 
+        .text-module-3 {
+            padding: 0px;
+        }
+        .contact-p {
+            font-size: 15px;
+        }
+        .product-img > img {
+            width: 130px;
+        }
+        .cart-total p {
+            font-size: 15px;
+        }
+        .product-price {
+            margin: 10px;
+            text-align: center
+        }
+    }
