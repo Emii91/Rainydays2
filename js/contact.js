@@ -5,7 +5,7 @@ const address = document.querySelector("#address");
 const subject = document.querySelector("#subject");
 const success = document.querySelector(".success");
 
-function validateForm() {
+function validateForm(event) {
     event.preventDefault();
 
     if(checkLength(fullName.value, 0) === true) {
@@ -15,7 +15,7 @@ function validateForm() {
         fullNameError.style.display = "block";
     }
 
-    if(checkLength(address.value, 35) === true) {
+    if(checkLength(address.value, 25) === true) {
         addressError.style.display = "none";
     }
     else {
@@ -55,8 +55,8 @@ function validateEmail(email) {
     return patternMatches;
 }
 
-function submit(event) {
-    form.reset();
-}
+// function submit(event) {
+//     form.reset();
+// }
 
-form.addEventListener("submit", submit);
+// form.addEventListener("submit", submit);
