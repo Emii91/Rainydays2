@@ -93,3 +93,44 @@ select {
     border-radius: 25px;
     cursor: pointer;
 }
+
+
+
+/* Results */
+
+.results {
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #0A3641;
+}
+
+.name {
+    font-size: 25px;
+    font-family: 'Source Sans Pro Regular';
+}
+
+.description {
+    font-size: 20px;
+    font-family: 'Source Sans Pro Regular';
+}
+
+.price {
+    font-size: 20px;
+    font-family: 'Source Sans Pro Black';
+}
+
+.add-to-cart {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 80px;
+    /* margin-left: 45%; */
+}
