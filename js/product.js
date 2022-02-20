@@ -12,7 +12,7 @@ async function fetchProducts() {
 
         resultsContainer.innerHTML = "";
 
-        for (let i = 0; i < json.length; i++) {
+        for (let i = 0; i < json.length; i++){
 
             resultsContainer.innerHTML += ` <a href="newarrivals-item.html?id=${json.id}" class="results">
                                             <img src="${json.images}" />
@@ -21,8 +21,7 @@ async function fetchProducts() {
                                             <p class="price">${json[i].prices.price}</p>
                                             <button class="add-to-cart">${json[i].add_to_cart.text}</button> 
                                             </a>`;
-        }                      
-
+        }                     
   } catch (error) {
         console.log(error);
    }
