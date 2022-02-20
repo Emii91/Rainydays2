@@ -114,6 +114,7 @@ select {
 .description {
     font-size: 20px;
     font-family: 'Source Sans Pro Regular';
+    width: 500px;
 }
 
 .price {
