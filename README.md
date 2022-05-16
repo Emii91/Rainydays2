@@ -1,6 +1,6 @@
 # Rainydays
 
-![image](https://user-images.githubusercontent.com/69647535/168567098-eb4d9bbf-9615-4589-9e20-0f3b6224f783.png)
+![image](https://user-images.githubusercontent.com/69647535/168572306-c7267827-a3fc-40ea-9f5f-995bbad3a4f2.png)
 
 Rainydays is a page for selling outerwear and accessories, perfect for the outdoors.
 
