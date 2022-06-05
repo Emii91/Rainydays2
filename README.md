@@ -35,7 +35,8 @@ Make sure you have Visual Studio Code installed and run the project with Visual 
 Use the plug-in "live server" in VSCode to display live relode when making changes to the project.
 
 ## Contributing
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate CONTRIBUTING.md and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+If wanting to contribute to this project please make sure to open a pull request so code can be reviewed.
+Do you have any questions please feel free to contact me! :)
 
 ## Contact
 https://www.linkedin.com/in/emily-cooke-frantzen-89a2691b6/
