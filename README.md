@@ -5,7 +5,7 @@
 Rainydays is a page for selling outerwear and accessories, perfect for the outdoors.
 
 ## Description
-The project was to make a fully functioning, responsive web page with focus on HTML and CSS. Later the form is added with JavaScript validation. The webpage is for selling different types of outerwear, for both men and women. 
+The project was to make a fully functioning, responsive web page with focus on HTML and CSS. Later the form is added with JavaScript validation. The webpage is for selling different types of outerwear, for both men and women. Every page had to be listed in the site architecture. The JavaScript validation for the contact form was added on a later stage.
 
 ### More details 
 
